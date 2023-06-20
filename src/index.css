@@ -47,6 +47,35 @@ input {
   width: 300px;
 }
 
+/* form.submitted input:not([type=submit]):invalid {
+  border: 2px dashed red;
+}
+
+form.submitted input:not([type=submit]):valid {
+  border: 2px solid green;
+} */
+
+.successMsg {
+  color: green;
+}
+
+.errorMsg {
+  color: red;
+}
+
+.errorMsg h4 {
+  margin-bottom: 6px;
+}
+
+.errorMsg ul {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
 input[type=submit] {
   width: 100px;
 }
