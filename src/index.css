@@ -88,3 +88,12 @@ h1 {
 button {
   margin:0 5px;
 }
+
+button:hover {
+  cursor: pointer;
+  background-color: salmon;
+}
+
+button:active {
+  background-color: indianred;
+}
